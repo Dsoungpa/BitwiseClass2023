@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(77, 73, 73);
+}
+header{
+    background-color: #AC92EB;
+    text-shadow: 2px 2px 5px #52319e;
+    border: 8px solid #52319e;
+    height: 75px;
+    margin: -9px -10px 0px -10px;
+    padding: 0;
+}
+
+ul {
+    display: flex; /* Makes them appear next to each other horizontally */
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+li a{
+    display: flex;
+    align-items: center; /*Makes text move to center vertically */
+    justify-content: center; /*Makes text move to center horizontally */
+
+    font-family: fantasy;
+    font-size: x-large;
+    text-decoration: none;
+
+    color: white;
+
+    height: 50px;
+    width: 200px;
+    margin-top: -10px
+
+}
+
+li a:hover {
+    background-color: rgb(35, 87, 136);
+    border-radius: 20px;
+    margin-top: -15px;
+}
+
+li a:visited {
+    color: rgb(255, 182, 179); /* Change the visited link color */
+}
+
+
+
+nav{
+    border-radius: 50px;
+    position: sticky;
+    background-color: #4FC1E8;
+    text-shadow: 1px 1px 5px #0c3948;
+    /* box-shadow: 10px 10px 10px lightblue; */
+    height: 75px;
+    top: 90px;
+    margin: -22px -5px 0px -5px;
+    padding: 0;
+    z-index:3;
+}
+
+section{
+    background-color: #A0D568;
+    text-shadow: 2px 2px 5px #2c4a0c;
+    height: 400px;
+    width: 70%;
+    margin-left: -10px;
+    position: relative;
+}
+
+aside{
+    background-color: #FFCE54;
+    text-shadow: 2px 2px 5px #47360a;
+    height: 800px;
+    width: 600px;
+    margin-right: -30px;
+    padding: 0;
+}
+
+article{
+    clear: left;
+    background-color: #ED5564;
+    text-shadow: 2px 2px 5px #4d080f;
+    height: 400px;
+    width: 70%;
+    margin-top: -420px;
+    margin-left: -10px;
+    padding: 0;
+}
+
+footer{
+    background-color: coral;
+    text-shadow: 2px 2px 5px rgb(79, 28, 10);
+    height: 1000px;
+    margin: -21px -10px 0px -10px;
+    padding: 0;
+}
+
+
+
+h1{
+    top: 50%;
+    text-align: center;
+    color: white;
+}
+
+div.main{
+    display: flex;
+    margin-top: 6px;
+}

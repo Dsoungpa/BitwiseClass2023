@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(27, 27, 27);
+}
+
+ul {
+    margin-right: -10px;
+    margin-top: -10px;
+    padding: 0;
+    height: 70px;
+    background-color: #333;
+    display: flex;/* Makes them appear next to each other horizontally */
+}
+
+img.logo {
+    float: left;
+    margin-left: -10px;
+    padding: 10px 30px 10px 20px;
+    background-color: #333;
+    transition: background-color 0.5s ease;
+}
+
+li {
+    display: flex; /* Makes them appear next to each other horizontally */
+    align-items: center; /* Center items vertically */
+    padding: 10px 50px 10px 10px;
+    transition: background-color 0.5s ease; /* Specify the desired transition duration */
+}
+
+li a{
+    font-family: fantasy;
+    color: white;
+    text-decoration: none; /*removes underline for link */
+    margin-left: 10px;
+    background-color: transparent;
+}
+
+
+
+/* Change the link color on hover */
+img.logo:hover{
+    background-color: rgb(116, 77, 45);
+}
+
+li.ow:hover {
+    background-color: rgb(255, 115, 0);
+}
+
+li.val:hover {
+    background-color: rgb(255, 58, 58);
+}
+
+li.mc:hover {
+    background-color: rgb(155, 227, 83);
+}
